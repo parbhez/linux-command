@@ -1,0 +1,41 @@
+Exatly path = sudo gedit /etc/environment OR
+Exatly path = echo $PATH
+
+Convert = sudo ln -s (/opt/lampp/bin/php) {/usr/local/bin/php}
+
+Composer install command = curl https://getcomposer.org/installer | php
+
+
+
+	==============All this command line===============
+
+	1.PWd = Print Working Directory
+	2.ls = List contents of current directory
+	3 cp folderName  newfolderName = copy folderName
+	4.mkdir = create folder
+	5.rmdir or rm -r folderName = delete folder
+		
+		==========Super User Enable & Disable===============
+Create superuser command = sudo passwd root
+Disable superuser command = sudo usermod -p '!' root
+
+		=========Website Xampp==============
+1.http://www.codebind.com/linux-tutorials/install-xampp-ubuntu-16-04/
+	====This website we get all details which xampp========= 		
+
+		===============Xampp Starting Command==============
+1.Start: sudo /opt/lampp/lampp start
+2.stop : sudo /opt/lampp/lampp stop
+3.restart: sudo /opt/lampp/restart
+4.stop/restart Apache2: sudo service apache2 stop/restart
+5.when apache2 starting fail then write command line sudo /etc/init.d/apache2 stop.Again press staring  sudo /opt/lampp/ lampp start
+
+		==============Xampp description=======================
+1.go to su user
+2.cd /opt/lampp
+2. ./xampp
+4. ./xampp start
+5.service --status-all
+6.if anyone(apache2) starting fail then service apache2 stop and again type ./xampp start then staring hopefully become.
+
+
